@@ -40,12 +40,13 @@ Below are the actual screenshots of the session, validating the XML structure an
 <summary>Click to expand technical screenshots</summary>
 
 ### 1. Structured XML Prompt
-![Prompt Logic](../assets/01-logic.png)
+![Prompt Logic](../assets/01_logic.png)
+
 
 ### 2. Analysis & Thought Process
-![Analysis Process](../assets/02-analysis.png)
+![Analysis Process](../assets/02_analysis.png)
 
 ### 3. Final Compliance Verdict
-![Audit Result](../assets/03-audit-report.png)
+![Audit Result](../assets/03_verdict.png)
 
 </details>
