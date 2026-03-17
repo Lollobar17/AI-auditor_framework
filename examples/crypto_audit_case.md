@@ -33,6 +33,35 @@ Overall Audit Verdict
 The original text contains multiple critical violations. It is consistent with the linguistic patterns of fraudulent investment schemes and pump-and-dump cryptocurrency promotions. It should not be presented to any user without complete revision and proper regulatory review.​​​​​​​​​​​​​​​​
 
 ---
+## Key Takeaways
+
+This case study demonstrates three concrete contributions of the AI Safety
+& Audit Framework in a real-world scenario:
+
+**1. Structured prompting produces auditable outputs.**
+By separating system role, audit criteria, and input data via XML tags,
+the framework forces the model to reason claim-by-claim rather than
+generating a generic response. The result is a structured, reproducible
+analysis — not a black-box judgment.
+
+**2. The 4D Framework surfaces violations that informal review would miss.**
+The original input contained six distinct violations across concentration
+risk, prohibited language, and regulatory non-compliance. A standard
+readability check would not have caught these. Systematic audit logic did.
+
+**3. AI-generated content in regulated domains requires a verification layer.**
+The "Diligence-Optimized Rewrite" section shows that the goal is not to
+block AI output, but to make it safe for distribution. This framework
+provides exactly that layer — a structured checkpoint between generation
+and publication.
+
+---
+
+> This case study was conducted using Claude (Anthropic) as the underlying
+> model, with the audit logic applied through structured XML prompting.
+> The interaction is fully documented and reproducible using the files
+> in the `/prompts` directory.
+
 ##  Audit Evidence
 Below are the actual screenshots of the session, validating the XML structure and the analytical process.
 
