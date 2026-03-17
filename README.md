@@ -8,7 +8,7 @@
 > A practical implementation of Anthropic's 4D Framework for monitoring
 > and auditing AI-generated financial content using structured XML prompting.
 
-![Anthropic Certificate](assets/anthropic-cert.png)
+![anthropic-cert.png.pdf](https://github.com/user-attachments/files/26053880/anthropic-cert.png.pdf)
 
 ---
 
