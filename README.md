@@ -1,5 +1,7 @@
 # AI Safety & Audit Framework
 
+![anthropic-cert.png.pdf](https://github.com/user-attachments/files/26053880/anthropic-cert.png.pdf)
+
 A practical implementation of Anthropic's 4D Framework for monitoring and auditing AI-generated financial content.
 
 ## Project Overview
