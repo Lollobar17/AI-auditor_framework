@@ -1,5 +1,3 @@
-# AI-auditor_framework
-Practical implementation of Anthropic's 4D Framework for AI Safety and Financial Audit.
 # AI Safety & Audit Framework
 
 A practical implementation of Anthropic's 4D Framework for monitoring and auditing AI-generated financial content.
@@ -9,8 +7,6 @@ This repository demonstrates the application of Discernment and Diligence to eva
 
 ## Certification & Foundations
 This project serves as a practical extension of my Anthropic AI Fluency: Framework & Foundations certification.
-- Score: 100%
-- Credential: [Verify here](https://verify.skilljar.com)
 
 ## Technical Features
 - Structural Prompting: Separation of system instructions, audit criteria, and raw data using XML tags.
