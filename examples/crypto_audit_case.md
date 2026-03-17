@@ -31,3 +31,21 @@ CryptoXYZ is one cryptocurrency option some investors have considered as a small
 Overall Audit Verdict
 🔴 FAIL — Do Not Publish / Distribute
 The original text contains multiple critical violations. It is consistent with the linguistic patterns of fraudulent investment schemes and pump-and-dump cryptocurrency promotions. It should not be presented to any user without complete revision and proper regulatory review.​​​​​​​​​​​​​​​​
+
+---
+##  Audit Evidence
+Below are the actual screenshots of the session, validating the XML structure and the analytical process.
+
+<details>
+<summary>Click to expand technical screenshots</summary>
+
+### 1. Structured XML Prompt
+![Prompt Logic](../assets/01-logic.png)
+
+### 2. Analysis & Thought Process
+![Analysis Process](../assets/02-analysis.png)
+
+### 3. Final Compliance Verdict
+![Audit Result](../assets/03-audit-report.png)
+
+</details>
