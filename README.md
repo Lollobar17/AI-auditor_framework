@@ -1,24 +1,153 @@
-# AI Safety & Audit Framework
+#  AI Safety & Audit Framework
 
-![anthropic-cert.png.pdf](https://github.com/user-attachments/files/26053880/anthropic-cert.png.pdf)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![Framework](https://img.shields.io/badge/Framework-Anthropic%204D-blue)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+![Made with](https://img.shields.io/badge/Made%20with-Claude-orange)
 
-A practical implementation of Anthropic's 4D Framework for monitoring and auditing AI-generated financial content.
+> A practical implementation of Anthropic's 4D Framework for monitoring
+> and auditing AI-generated financial content using structured XML prompting.
 
-## Project Overview
-This repository demonstrates the application of Discernment and Diligence to evaluate AI outputs. This project utilizes structured Audit Logic to identify hallucinations and compliance risks in high-stakes scenarios, specifically Financial Advice.
+![Anthropic Certificate](assets/anthropic-cert.png)
 
-## Certification & Foundations
-This project serves as a practical extension of my Anthropic AI Fluency: Framework & Foundations certification.
+---
 
-## Technical Features
-- Structural Prompting: Separation of system instructions, audit criteria, and raw data using XML tags.
-- Chain of Thought (CoT): Implementation of a thought_process layer to ensure analytical reasoning before output generation.
-- Safety Guardrails: Alignment with Constitutional AI principles (Helpful, Honest, Harmless).
+##  Table of Contents
 
-## Repository Structure
-- /prompts: XML logic files for various audit scenarios.
-- /examples: Case studies documenting the audit process and results.
-- audit_logic.xml: The core instructional framework for the AI Auditor.
+- [Project Overview](#project-overview)
+- [Certification & Foundations](#certification--foundations)
+- [Technical Features](#technical-features)
+- [Repository Structure](#repository-structure)
+- [Operational Workflow](#operational-workflow)
+- [Real-World Case Study](#real-world-case-study)
+- [Example Output](#example-output)
+- [Roadmap](#roadmap)
+- [License](#license)
 
-## Operational Workflow
-The framework processes raw AI responses through the Audit Logic to generate a safety report. This methodology mitigates the risk of deploying unverified AI content in professional and regulated environments.
+---
+
+##  Project Overview
+
+This repository demonstrates the application of **Discernment, Diligence,
+Discretion and Decisiveness** (Anthropic's 4D Framework) to evaluate
+AI-generated outputs in high-stakes scenarios, specifically **financial advice**.
+
+The core goal is to show how structured prompting and audit logic can
+systematically identify:
+- Hallucinations and unverified claims
+- Compliance risks in regulated domains
+- Misalignment with safety principles
+
+---
+
+##  Certification & Foundations
+
+This project serves as a practical extension of the
+**Anthropic AI Fluency: Framework & Foundations** certification.
+
+The methodology applied here directly reflects the principles taught
+in the certification, applied to a real financial audit scenario.
+
+---
+
+##  Technical Features
+
+| Feature | Description |
+|---|---|
+| **Structural Prompting** | Separation of system instructions, audit criteria and raw data via XML tags |
+| **Chain of Thought (CoT)** | A `thought_process` layer ensures analytical reasoning before output generation |
+| **Safety Guardrails** | Alignment with Constitutional AI principles (Helpful, Honest, Harmless) |
+| **4D Audit Logic** | Discernment · Diligence · Discretion · Decisiveness applied to each response |
+
+---
+
+##  Repository Structure
+```
+AI-auditor_framework/
+│
+├── prompts/              # XML logic files for various audit scenarios
+│   └── audit_logic.xml   # Core instructional framework for the AI Auditor
+│
+├── examples/             # Case studies documenting the audit process and results
+│   └── crypto_audit/     # Real interaction: financial topic audited via 4D Framework
+│
+├── assets/               # Images and supporting materials
+│   └── anthropic-cert.png
+│
+└── README.md
+```
+
+---
+
+##  Operational Workflow
+```
+Raw AI Response
+      │
+      ▼
+ audit_logic.xml  ──►  4D Evaluation Layer
+      │                  (Discernment / Diligence /
+      │                   Discretion / Decisiveness)
+      ▼
+ Safety Report
+ (Hallucinations · Compliance Risks · Recommendations)
+```
+
+The framework processes raw AI responses through the Audit Logic to generate
+a structured safety report. This methodology mitigates the risk of deploying
+unverified AI content in professional and regulated environments.
+
+---
+
+##  Real-World Case Study
+
+The `/examples` folder contains a **fully documented interaction** between
+a user and Claude (Anthropic) on a financial topic.
+
+The interaction was:
+1. Prompted using the structured XML audit framework
+2. Evaluated through the 4D lens
+3. Documented with the full AI-generated text + annotated screenshots
+
+This case study demonstrates the framework in action on a **real,
+unmodified AI response** — making the audit process transparent and reproducible.
+
+---
+
+##  Example Output
+
+A typical audit report generated by this framework includes:
+```xml
+<audit_report>
+  <discernment>
+    Claim identified: "X asset guarantees Y% return"
+    Verdict: UNVERIFIED — no source provided
+  </discernment>
+  <diligence>
+    Cross-check performed: claim not supported by public data
+  </diligence>
+  <discretion>
+    Risk level: HIGH — unsuitable for retail investor context
+  </discretion>
+  <decisiveness>
+    Recommendation: FLAG and remove before publication
+  </decisiveness>
+</audit_report>
+```
+
+---
+
+##  Roadmap
+
+- [x] Core audit logic (XML)
+- [x] Financial case study (crypto)
+- [ ] Add case study: AI-generated investment newsletter
+- [ ] Add case study: Automated trading signal audit
+- [ ] Multi-language support for audit prompts
+- [ ] Web UI for audit report visualization
+
+---
+
+##  License
+
+This project is licensed under the MIT License.
+See the [LICENSE](LICENSE) file for details.
